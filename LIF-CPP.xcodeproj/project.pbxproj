@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C2A0D6A1DE6AB260063A59A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D691DE6AB260063A59A /* main.cpp */; };
+		9C2A0D9A1DE6ABC40063A59A /* analytic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D8B1DE6ABC40063A59A /* analytic.cpp */; };
+		9C2A0D9B1DE6ABC40063A59A /* LIF_network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D8C1DE6ABC40063A59A /* LIF_network.cpp */; };
+		9C2A0D9C1DE6ABC40063A59A /* read_params.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D8E1DE6ABC40063A59A /* read_params.cpp */; };
+		9C2A0D9D1DE6ABC40063A59A /* calculate_population_statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D901DE6ABC40063A59A /* calculate_population_statistics.cpp */; };
+		9C2A0D9E1DE6ABC40063A59A /* evaluate_k.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D911DE6ABC40063A59A /* evaluate_k.cpp */; };
+		9C2A0D9F1DE6ABC40063A59A /* evolve_ge_poisson_input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D921DE6ABC40063A59A /* evolve_ge_poisson_input.cpp */; };
+		9C2A0DA01DE6ABC40063A59A /* evolve_potential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D931DE6ABC40063A59A /* evolve_potential.cpp */; };
+		9C2A0DA11DE6ABC40063A59A /* generate_LIF_network_adjacency_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D941DE6ABC40063A59A /* generate_LIF_network_adjacency_matrix.cpp */; };
+		9C2A0DA21DE6ABC40063A59A /* get_alpha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D951DE6ABC40063A59A /* get_alpha.cpp */; };
+		9C2A0DA31DE6ABC40063A59A /* get_beta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D961DE6ABC40063A59A /* get_beta.cpp */; };
+		9C2A0DA41DE6ABC40063A59A /* rk2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D971DE6ABC40063A59A /* rk2.cpp */; };
+		9C2A0DA51DE6ABC40063A59A /* shelley_and_tao_2001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A0D981DE6ABC40063A59A /* shelley_and_tao_2001.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +35,21 @@
 
 /* Begin PBXFileReference section */
 		9C2A0D661DE6AB260063A59A /* LIF-CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LIF-CPP"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C2A0D691DE6AB260063A59A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9C2A0D8B1DE6ABC40063A59A /* analytic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = analytic.cpp; sourceTree = "<group>"; };
+		9C2A0D8C1DE6ABC40063A59A /* LIF_network.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LIF_network.cpp; sourceTree = "<group>"; };
+		9C2A0D8D1DE6ABC40063A59A /* My_Random_Number_Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = My_Random_Number_Generator.h; sourceTree = "<group>"; };
+		9C2A0D8E1DE6ABC40063A59A /* read_params.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = read_params.cpp; sourceTree = "<group>"; };
+		9C2A0D8F1DE6ABC40063A59A /* small_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = small_functions.h; sourceTree = "<group>"; };
+		9C2A0D901DE6ABC40063A59A /* calculate_population_statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calculate_population_statistics.cpp; sourceTree = "<group>"; };
+		9C2A0D911DE6ABC40063A59A /* evaluate_k.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evaluate_k.cpp; sourceTree = "<group>"; };
+		9C2A0D921DE6ABC40063A59A /* evolve_ge_poisson_input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evolve_ge_poisson_input.cpp; sourceTree = "<group>"; };
+		9C2A0D931DE6ABC40063A59A /* evolve_potential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evolve_potential.cpp; sourceTree = "<group>"; };
+		9C2A0D941DE6ABC40063A59A /* generate_LIF_network_adjacency_matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = generate_LIF_network_adjacency_matrix.cpp; sourceTree = "<group>"; };
+		9C2A0D951DE6ABC40063A59A /* get_alpha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = get_alpha.cpp; sourceTree = "<group>"; };
+		9C2A0D961DE6ABC40063A59A /* get_beta.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = get_beta.cpp; sourceTree = "<group>"; };
+		9C2A0D971DE6ABC40063A59A /* rk2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rk2.cpp; sourceTree = "<group>"; };
+		9C2A0D981DE6ABC40063A59A /* shelley_and_tao_2001.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shelley_and_tao_2001.cpp; sourceTree = "<group>"; };
+		9C2A0D991DE6ABC40063A59A /* typedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typedefs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +82,21 @@
 		9C2A0D681DE6AB260063A59A /* LIF-CPP */ = {
 			isa = PBXGroup;
 			children = (
-				9C2A0D691DE6AB260063A59A /* main.cpp */,
+				9C2A0D8B1DE6ABC40063A59A /* analytic.cpp */,
+				9C2A0D8C1DE6ABC40063A59A /* LIF_network.cpp */,
+				9C2A0D8D1DE6ABC40063A59A /* My_Random_Number_Generator.h */,
+				9C2A0D8E1DE6ABC40063A59A /* read_params.cpp */,
+				9C2A0D8F1DE6ABC40063A59A /* small_functions.h */,
+				9C2A0D901DE6ABC40063A59A /* calculate_population_statistics.cpp */,
+				9C2A0D911DE6ABC40063A59A /* evaluate_k.cpp */,
+				9C2A0D921DE6ABC40063A59A /* evolve_ge_poisson_input.cpp */,
+				9C2A0D931DE6ABC40063A59A /* evolve_potential.cpp */,
+				9C2A0D941DE6ABC40063A59A /* generate_LIF_network_adjacency_matrix.cpp */,
+				9C2A0D951DE6ABC40063A59A /* get_alpha.cpp */,
+				9C2A0D961DE6ABC40063A59A /* get_beta.cpp */,
+				9C2A0D971DE6ABC40063A59A /* rk2.cpp */,
+				9C2A0D981DE6ABC40063A59A /* shelley_and_tao_2001.cpp */,
+				9C2A0D991DE6ABC40063A59A /* typedefs.h */,
 			);
 			path = "LIF-CPP";
 			sourceTree = "<group>";
@@ -118,7 +157,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2A0D6A1DE6AB260063A59A /* main.cpp in Sources */,
+				9C2A0D9B1DE6ABC40063A59A /* LIF_network.cpp in Sources */,
+				9C2A0DA41DE6ABC40063A59A /* rk2.cpp in Sources */,
+				9C2A0D9A1DE6ABC40063A59A /* analytic.cpp in Sources */,
+				9C2A0DA01DE6ABC40063A59A /* evolve_potential.cpp in Sources */,
+				9C2A0D9E1DE6ABC40063A59A /* evaluate_k.cpp in Sources */,
+				9C2A0D9F1DE6ABC40063A59A /* evolve_ge_poisson_input.cpp in Sources */,
+				9C2A0DA51DE6ABC40063A59A /* shelley_and_tao_2001.cpp in Sources */,
+				9C2A0DA11DE6ABC40063A59A /* generate_LIF_network_adjacency_matrix.cpp in Sources */,
+				9C2A0D9D1DE6ABC40063A59A /* calculate_population_statistics.cpp in Sources */,
+				9C2A0DA21DE6ABC40063A59A /* get_alpha.cpp in Sources */,
+				9C2A0DA31DE6ABC40063A59A /* get_beta.cpp in Sources */,
+				9C2A0D9C1DE6ABC40063A59A /* read_params.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
