@@ -17,6 +17,7 @@
 #include "typedefs.h"
 #include <chrono>
 #include <sstream>
+#include <time.h>
 
 struct My_Random_Number_Generator_t
 {

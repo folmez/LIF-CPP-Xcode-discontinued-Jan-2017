@@ -78,6 +78,7 @@ int main()
     ///////////////////////////////////////////////////////////////////////
     ///////////////////////// Initialization //////////////////////////////
     ///////////////////////////////////////////////////////////////////////
+    
     // Total number of steps (#) in the loop
     Total_t nr_time_steps= t_end/dt;
     // INSERT ASSERT FOR NR OF TIMESTEPS. IT MUST BE AN INTEGER!!!
@@ -283,6 +284,23 @@ int main()
                                     avg_exc_gep,       avg_inh_gep,       avg_gep,
                                     avg_exc_gen,       avg_inh_gen,       avg_gen,
                                     avg_exc_gin,       avg_inh_gin,       avg_gin);
+    
+    ///////////////////////////////////////////////////////////////////////
+    ///////////////////// WRITE SIMULATION OUTPUT /////////////////////////
+    ///////////////////////////////////////////////////////////////////////
+
+    write_simulation_output(n, en, in, nr_rps, t_unit, t_end,
+                            rast_ID, rast_firing_time, warm_up_time,
+                            network_type, params, tref, SE, SI, dt, extI, fS,
+                            external_spike_type_num, external_spike_rate, eneff, ineff, tref,
+                            v1, gep1, gen1, gin1,
+                            exc_poisson_input, inh_poisson_input, tot_poisson_input,
+                            exc_firing_rate,   inh_firing_rate,   tot_firing_rate,
+                            avg_exc_v,         avg_inh_v,         avg_v,
+                            avg_exc_gep,       avg_inh_gep,       avg_gep,
+                            avg_exc_gen,       avg_inh_gen,       avg_gen,
+                            avg_exc_gin,       avg_inh_gin,       avg_gin);
+    
     
     ///////////////////////////////////////////////////////////////////////
     ////////////////////////////// END ////////////////////////////////////

@@ -1,0 +1,48 @@
+# LIF NETWORK CONFIGURATION FILE GUIDELINES
+# (1) Do not use ; at the ends
+# (2) Use # at the beginning of comments
+# (3) Empty lines are OK
+
+# Number of excitatory neurons
+en=20
+
+# Number of inhibitory neurons
+in=-20
+
+# Network type: ER
+network_type=ER
+
+# Network parameters
+params=1
+
+# Total simulation time (ms)
+t_end=500
+
+# Time-step length (ms)
+dt=0.1
+
+# Refractory period
+tref=0.0
+
+# Warm-up time
+warm_up_time=0
+
+# Number of populations
+nr_pops=2
+
+# Number of sampled neurons from each pop
+sn=1
+    
+fS=0.005
+fR=1.0
+SE=0.05
+SI=0.5
+
+# External input current
+extI=0.0
+
+# External spike type: 1-Poisson, 2-Deterministic
+external_spike_type_num=2
+
+# External spike input rate (per sec) to each neuron
+external_spike_rate=4000

@@ -71,4 +71,22 @@ void calculate_population_statistics(Number_t n, Number_t en, Number_t in,
                                      Conductance_t &avg_gen, Conductance_t &avg_exc_gin,
                                      Conductance_t &avg_inh_gin, Conductance_t &avg_gin);
 
+void write_simulation_output(Number_t n, Number_t en, Number_t in,
+                             Number_t nr_rps[], Time_t t_unit, Time_t t_end,
+                             std::vector<Number_t> rast_ID, std::vector<Time_t> rast_firing_time,
+                             Time_t warm_up_time, std::string network_type, Probability_t params,
+                             Time_t ref, Rate_t SE, Rate_t SI, Time_t dt, Current_t extI, Rate_t fS,
+                             Number_t external_spike_type_num, Rate_t external_spike_rate,
+                             Scale_t eneff, Scale_t ineff, Time_t tref,
+                             Potential_t v1[], Conductance_t gep1[], Conductance_t gen1[],
+                             Conductance_t gin1[],
+                             Conductance_t &exc_poisson_input, Conductance_t inh_poisson_input,
+                             Conductance_t tot_poisson_input, Rate_t exc_firing_rate,
+                             Rate_t inh_firing_rate, Rate_t tot_firing_rate, Potential_t avg_exc_v,
+                             Potential_t avg_inh_v, Potential_t avg_v, Conductance_t avg_exc_gep,
+                             Conductance_t avg_inh_gep, Conductance_t avg_gep,
+                             Conductance_t avg_exc_gen, Conductance_t avg_inh_gen,
+                             Conductance_t avg_gen, Conductance_t avg_exc_gin,
+                             Conductance_t avg_inh_gin, Conductance_t avg_gin);
+
 #endif
